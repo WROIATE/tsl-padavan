@@ -40,5 +40,5 @@ jobs:
           fi
       - uses: actions/upload-artifact@main
         with:
-          name: ${{ matrix.toolchain }}
+          name: ${{ matrix.toolchain }}.zip
           path: trunk/images/*.trx
